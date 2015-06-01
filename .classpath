@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/12T4029X/Documents/eclipse lib/PSCntoroller/lib/mac"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/motoki/libs/leJOS_EV3_0.8.1-beta/lib/ev3/ev3classes.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PSController"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
