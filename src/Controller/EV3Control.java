@@ -111,6 +111,8 @@ public class EV3Control extends Thread implements ShootingListener, SoccerEventL
 	}
 	
 	public void EV3_forward(float speed){
+		if (!this.enabled) return;
+		
 		speed = this.speedFilter(speed); // color sensor の値からスピードを変更する
 		
 		if (this.controllerMode == 0)
